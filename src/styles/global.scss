@@ -1,0 +1,14 @@
+@import "fonts";
+@import "../tokens/tokens";
+
+:where(*, *::after, *::before) {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e2eef6;
+}
